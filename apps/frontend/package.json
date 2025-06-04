@@ -8,6 +8,18 @@
     "react-dom": "19.0.0"
   },
   "nx": {
-    "name": "frontend"
+    "name": "frontend",
+    "targets": {
+      "dev": {
+        "dependsOn": [
+          {
+            "projects": [
+              "backend"
+            ],
+            "target": "serve"
+          }
+        ]
+      }
+    }
   }
 }
