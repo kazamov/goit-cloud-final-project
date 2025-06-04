@@ -2,15 +2,7 @@
   "name": "@goit-cloud-final-project/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate",
-    "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio",
-    "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down",
-    "docker:logs": "docker-compose logs -f"
-  },
+  "scripts": {},
   "private": true,
   "engines": {
     "node": ">=22.16.0"
