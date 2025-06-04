@@ -2,6 +2,18 @@
   "name": "@goit-cloud-final-project/backend",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "docker:up": "cd ../../ && docker-compose up -d",
+    "docker:down": "cd ../../ && docker-compose down",
+    "docker:logs": "cd ../../ && docker-compose logs -f",
+    "dev": "nx serve backend",
+    "build": "nx build backend",
+    "start": "node dist/main.js"
+  },
   "nx": {
     "name": "backend",
     "targets": {
